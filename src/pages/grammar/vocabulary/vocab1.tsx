@@ -50,6 +50,44 @@ const Vocab1 = () => {
                     <Vcol>kutya</Vcol><Vcol>dog</Vcol>
                 </Vrow>
             </Vocab>
+            <h3>
+                Food & Drink
+            </h3>
+            <Vocab>
+                <Vrow>
+                    <Vcol>reggeli</Vcol><Vcol>breakfast</Vcol>
+                </Vrow>
+                <Vrow>
+                    <Vcol>ebéd</Vcol><Vcol>lunch</Vcol>
+                </Vrow>
+                <Vrow>
+                    <Vcol>vacsora</Vcol><Vcol>dinner</Vcol>
+                </Vrow>
+                <Vrow>
+                    <Vcol>víz</Vcol><Vcol>water</Vcol>
+                </Vrow>
+                <Vrow>
+                    <Vcol>tej</Vcol><Vcol>milk</Vcol>
+                </Vrow>
+                <Vrow>
+                    <Vcol>kávé</Vcol><Vcol>coffee</Vcol>
+                </Vrow>
+                <Vrow>
+                    <Vcol>tea</Vcol><Vcol>tea</Vcol>
+                </Vrow>
+                <Vrow>
+                    <Vcol>kenyér</Vcol><Vcol>bread</Vcol>
+                </Vrow>
+                <Vrow>
+                    <Vcol>sajt</Vcol><Vcol>cheese</Vcol>
+                </Vrow>
+                <Vrow>
+                    <Vcol>hús</Vcol><Vcol>meat</Vcol>
+                </Vrow>
+                <Vrow>
+                    <Vcol>szendvics</Vcol><Vcol>sandwich</Vcol>
+                </Vrow>
+            </Vocab>
         </div>
     );
 };
