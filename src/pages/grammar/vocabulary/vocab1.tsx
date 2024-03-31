@@ -1,5 +1,6 @@
 import React from "react";
 import { Example, Erow, Ecol }  from "../../../components/Example/ExampleElements";
+import { Vocab, Vrow, Vcol } from "../../../components/Vocab/VocabElements";
 
 const Vocab1 = () => {
     return (
@@ -23,32 +24,32 @@ const Vocab1 = () => {
             <h3>
                 People & Animals
             </h3>
-            <Example>
-                <Erow>
-                    <Ecol>lany</Ecol><Ecol>girl</Ecol>
-                </Erow>
-                <Erow>
-                    <Ecol>fiú</Ecol><Ecol>boy</Ecol>
-                </Erow>
-                <Erow>
-                    <Ecol>nő</Ecol><Ecol>woman</Ecol>
-                </Erow>
-                <Erow>
-                    <Ecol>férfi</Ecol><Ecol>man</Ecol>
-                </Erow>
-                <Erow>
-                    <Ecol>baba</Ecol><Ecol>baby</Ecol>
-                </Erow>
-                <Erow>
-                    <Ecol>ember</Ecol><Ecol>human</Ecol>
-                </Erow>
-                <Erow>
-                    <Ecol>macska</Ecol><Ecol>cat</Ecol>
-                </Erow>
-                <Erow>
-                    <Ecol>kutya</Ecol><Ecol>dog</Ecol>
-                </Erow>
-            </Example>
+            <Vocab>
+                <Vrow>
+                    <Vcol>lany</Vcol><Vcol>girl</Vcol>
+                </Vrow>
+                <Vrow>
+                    <Vcol>fiú</Vcol><Vcol>boy</Vcol>
+                </Vrow>
+                <Vrow>
+                    <Vcol>nő</Vcol><Vcol>woman</Vcol>
+                </Vrow>
+                <Vrow>
+                    <Vcol>férfi</Vcol><Vcol>man</Vcol>
+                </Vrow>
+                <Vrow>
+                    <Vcol>baba</Vcol><Vcol>baby</Vcol>
+                </Vrow>
+                <Vrow>
+                    <Vcol>ember</Vcol><Vcol>human</Vcol>
+                </Vrow>
+                <Vrow>
+                    <Vcol>macska</Vcol><Vcol>cat</Vcol>
+                </Vrow>
+                <Vrow>
+                    <Vcol>kutya</Vcol><Vcol>dog</Vcol>
+                </Vrow>
+            </Vocab>
         </div>
     );
 };
