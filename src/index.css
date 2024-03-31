@@ -1,0 +1,43 @@
+/* Contains global styles that affect everything in the project. */
+
+html {
+  background-color:lightgrey;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h2 {
+  font-size:16pt;
+  margin:0px;
+  margin-bottom:15px;
+}
+
+h3 {
+  font-size:12pt;
+  margin:0px;
+  margin-bottom:5px;
+}
+
+p {
+  font-size:12pt;
+  margin:0px;
+  margin-bottom:15px;
+}
+
+.Page {
+  width:760px;
+  margin:auto;
+  border-radius:20px;
+  background-color:white;
+  padding:20px;
+  margin-top:15px;
+  border: 1px solid white;
+}
+
+.TopBar {
+  background-color: white;
+  width:800px;
+  margin:auto;
+  border: 1px solid white;
+  border-radius:20px;
+  margin-top:15px;
+}
