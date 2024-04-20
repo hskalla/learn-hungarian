@@ -1,6 +1,7 @@
 import React from "react";
 import { Example, Erow, Ecol }  from "../../../components/Example/ExampleElements";
 import { Vocab, Vrow, Vcol } from "../../../components/Vocab/VocabElements";
+import { NameForm, Fill } from "../../../components/Fill/FillElements";
 
 const Vocab1 = () => {
     return (
@@ -88,6 +89,18 @@ const Vocab1 = () => {
                     <Vcol>szendvics</Vcol><Vcol>sandwich</Vcol>
                 </Vrow>
             </Vocab>
+            <Fill 
+                size={2}
+                description={"Match the English words to their translation in Hungarian."}
+                questions={new Array(
+                    "kávé", 
+                    "szendvics"
+                )}
+                answers={new Array(
+                    "coffee",
+                    "sandwich"
+                )}
+            />
         </div>
     );
 };
